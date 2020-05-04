@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <meta name="keywords"
+          content="Haisheng Tan, USTC, homepage, University of Science and Technology of China,  谈海生, 个人主页, 中国科学技术大学">
+    <title>Dr. Haisheng TAN (谈海生) </title>
+    <link type="text/css" rel="stylesheet" href="./homepage_files/style.css">
+
+    <script src="./homepage_files/jquery-latest.js" type="text/javascript">
+    </script>
+
+    <script src="./homepage_files/ga.js" type="text/javascript"></script>
+
+    <script src="./homepage_files/load.js" type="text/javascript"></script>
+
+    <script language="JavaScript" type="text/javascript">
+        //<![CDATA[
+        function toggle(id) {
+            $("#" + id).slideToggle();
+            return false;
+        };
+
+        function tall() {
+            $(".hide").toggle();
+            $(".show").toggle();
+            return false;
+        };
+        //]]>
+    </script>
+
+    <script type="text/javascript" src="./homepage_files/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            // hide #back-top first
+            $("#back-top").hide();
+
+            // fade in #back-top
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        $('#back-top').fadeIn();
+                    } else {
+                        $('#back-top').fadeOut();
+                    }
+                });
+
+                // scroll body to 0px on click
+                $('#back-top a').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
+            });
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+<!--end header-->
+<div class="line"></div>
+<div id="content">
+
+    <!-- 2020-2-18 15:31:52 1st Edit by ABerror-->
+    <!-- 2020-4-16 17:20:43 2nd Edit by ABerror-->
+    <!-- 下面这个注释掉的是原本的设置，反正就是有问题，于是被我改成了下下行 -->
+    <!-- <div id="experience" class="cv-section"> -->
+    <div id="experience" style="margin: auto">
+        <!-- 下面这两是啥呢？我也不知道 -->
+        <a name="top"></a>
+
+        <div id="leftNavbar">
+            <table id="indexTable" width="100%">
+                <tbody>
+                <tr>
+                    <h4><a href="./home.html" style="margin: auto;">Home</a></h4>
+                </tr>
+                <tr>
+                    <h4><a href="./news.html" style="margin: auto;">News</a></h4>
+                </tr>
+                <tr>
+                    <h4><a href="./research.html">Research</a></h4>
+                </tr>
+                <tr>
+                    <h4><a href="./teaching.html">Teaching</a></h4>
+                </tr>
+                <tr>
+                    <h4><a href="./services.html">Services</a></h4>
+                </tr>
+                <tr>
+                    <h4><a href="Student.html">Students</a></h4>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="wrap">
+
+            <!-- begin of services -->
+            <div id="content"  style="font-size: 15px">
+                <div class="service-section" style="font-size: 15px";>
+                    <h3>Services</h3>
+<!--                    <strong>PC members </strong></br>-->
+<!--                    <li><span><strong>PC members: </strong>ACM TURC'20(Keynote Chair), Bigcom'20(Vice TPC co-Chair), IEEE INFOCOM'20, IEEE INFOCOM'19, IEEE ICDCS'19, IEEE MASS'18, IEEE-->
+<!--                    									ICPADS'18, CBD'18, BigCom'18(Track Chair), IEEE MASS'17, BigCom'17, CWSN'17, CBD'17,-->
+<!--                    									and others before 2017.</span></li>-->
+<!--                    <li><span><strong>Reviewers: </strong> IEEE/ACM ToN, IEEE TMC, ACM TOSN, JOCO,TCS, Science-->
+<!--                    									China Information Science, and etc.</span></li>-->
+                    <h4><span>PC members: </span></h4>
+                    <ul>
+                        <li>
+                            ACM TURC 2020 (Keynote Chair), Bigcom 2020 (Vice TPC co-Chair), IEEE MSN 2020 (Track
+                            Chair), IEEE INFOCOM 2020, BigCom 2020</span>
+                        </li>
+                        <li>IEEE INFOCOM 2019(Distinguished TPC Member), IEEE ICPADS 2019, IEEE MASS 2019, IEEE
+                            ICDCS 2019, BigCom 2019</span></li>
+                        <li>BigCom 2018(Track Chair), IEEE ICPADS 2018, IEEE MASS 2018, BigCom 2018, CBD
+                            2018</span></li>
+                        <li>IEEE MASS 2017, BigCom 2017, IIKI 2017, CWSN 2017, CBD 2017</span></li>
+                        <li>And others before 2017</span></li>
+                    </ul>
+                    <h4><span>Reviewers:  </span></h4>
+                    <p>IEEE TCC, IEEE/ACM ToN, IEEE TMC, ACM TOSN, JOCO,TCS, Science China Information Science, and
+                        etc.</span>
+                    </p>
+                </div>
+            </div>
+            <!-- end of services -->
+
+        </div>
+    </div>
+</div>
+
+
+<!-- <p id="back-top" style="display: none;">
+    <font color="red"><a href="#top"><span></span>Back to Top</a></font>
+</p> -->
+
+</body>
+
+</html> 

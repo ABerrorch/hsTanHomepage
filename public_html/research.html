@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+	<meta name="keywords"
+		content="Haisheng Tan, USTC, homepage, University of Science and Technology of China,  谈海生, 个人主页, 中国科学技术大学">
+	<title>Dr. Haisheng TAN (谈海生) </title>
+	<link type="text/css" rel="stylesheet" href="./homepage_files/style.css">
+
+	<script src="./homepage_files/jquery-latest.js" type="text/javascript">
+	</script>
+
+	<script src="./homepage_files/ga.js" type="text/javascript"></script>
+
+	<script src="./homepage_files/load.js" type="text/javascript"></script>
+
+	<script language="JavaScript" type="text/javascript">
+		//<![CDATA[
+		function toggle(id) {
+			$("#" + id).slideToggle();
+			return false;
+		};
+
+		function tall() {
+			$(".hide").toggle();
+			$(".show").toggle();
+			return false;
+		};
+  //]]>
+	</script>
+
+	<script type="text/javascript" src="./homepage_files/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function () {
+
+			// hide #back-top first
+			$("#back-top").hide();
+
+			// fade in #back-top
+			$(function () {
+				$(window).scroll(function () {
+					if ($(this).scrollTop() > 100) {
+						$('#back-top').fadeIn();
+					} else {
+						$('#back-top').fadeOut();
+					}
+				});
+
+				// scroll body to 0px on click
+				$('#back-top a').click(function () {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 800);
+					return false;
+				});
+			});
+
+		});
+	</script>
+
+</head>
+
+<body>
+
+	<!--end header-->
+	<div class="line"></div>
+	<div id="content">
+
+		<!-- 2020-2-18 15:31:52 1st Edit by ABerror-->
+		<!-- 2020-4-16 17:20:43 2nd Edit by ABerror-->
+		<!-- 下面这个注释掉的是原本的设置，反正就是有问题，于是被我改成了下下行 -->
+		<!-- <div id="experience" class="cv-section"> -->
+		<div id="experience" style="margin: auto">
+			<!-- 下面这两是啥呢？我也不知道 -->
+			<a name="top"></a>
+
+			<div id="leftNavbar">
+				<table id="indexTable" width="100%">
+					<tbody>
+						<tr>
+							<h4><a href="./home.html" style="margin: auto;">Home</a></h4>
+						</tr>
+						<tr>
+							<h4><a href="./news.html" style="margin: auto;">News</a></h4>
+						</tr>
+						<tr>
+							<h4><a href="./research.html">Research</a></h4>
+						</tr>
+						<tr>
+							<h4><a href="./teaching.html">Teaching</a></h4>
+						</tr>
+						<tr>
+							<h4><a href="./services.html">Services</a></h4>
+						</tr>
+						<tr>
+							<h4><a href="Student.html">Students</a></h4>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="wrap">
+
+				<!-- begin of research -->
+				<div id="research" class="cv-section" style="font-size: 15px;">
+					<h3>Research</h3>
+					<p>
+						My research interests lie in Networking Algorithm Design and System Implementation.
+						Specifically, recently I am working on some fundamental problems in mobile edge 
+						computing and datacenter networks (e.g., flow routing and scheduling, job
+						dispatching and scheduling, resource allocation). We are dedicated in designing novel algorithmic solutions based on online/distributed/learning algorithms to enhance the mobile computing systems.<br>
+						</p>
+					</br>
+					<p><strong>Acknowledgement:</strong> My current research is partially supported by
+						National Natural Science Foundation of China (NSFC), Ministry of Science and
+						Technology, Ministry of Industry and Information Technology, Ministry of
+						Education, Huawei Technologies Co., Ltd., and USTC.</br></br>
+						 <strong>致谢:</strong>我们当前的科研工作受到如下政府部门、学校和企业的资助：国家自然科学基金委、科技部、工信部、教育部、华为技术有限公司、微软亚洲研究院、中国科学技术大学。
+					</p></br>
+					<h4 class="title">Recent Publications (Since 2015)
+						<a target="_blank" href="http://dblp.uni-trier.de/pers/hd/t/Tan:Haisheng"> [DBLP]</a>
+					</h4>
+					</br></br>
+					<!-- Notes on the author list: <br/>-->
+					A name followed by * means the corresponding author, and # means the
+					co-first author. <br />
+
+
+					<ul>
+
+						<h5>2020</h5>
+						<li><span>
+								<b>Online Dispatching and Scheduling of Jobs with Heterogeneous
+									Utilities in Edge Computing</b><br />
+								<i>Chi Zhang, Haisheng Tan*, Haoqiang Huang, Zhenhua Han, Shaofeng
+									Jiang, Nikolaos Freris & Xiang-Yang Li</i><br />
+								Accepted to <i><strong>ACM Mobihoc</strong></i> 2020. <br />
+							</span></li><br />
+
+						<li><span>
+								<b>Joint Optimization of File Placement and Delivery in Cache-Assisted
+									Wireless Networks with Limited Lifetime and Cache Space</b><br />
+								<i>Bojie Lv, Rui Wang, Ying Cui, Yi Gong and Haisheng Tan</i><br />
+								Accepted to <i><strong>IEEE Transactions on Communications </strong></i>
+								2020, Early Access, doi: 10.1109/TCOMM.2020.2966454. <br />
+							</span></li><br />
+
+						<li><span>
+								<b>Scheduling Placement-Sensitive BSP Jobs with Inaccurate Execution
+									Time Estimation</b><br />
+								<i>Zhenhua Han, Haisheng Tan *, Shaofeng H.-C. Jiang, Xiaoming Fu, Wanli
+									Cao, Francis Lau</i><br />
+								Accepted to <i><strong>IEEE INFOCOM </strong></i> 2020. <br />
+							</span></li><br />
+
+						<li><span>
+								<b>Automating Cloud Deployment for Deep Learning Inference of Real-time
+									Online Services</b><br />
+								<i>Yang Li, Zhenhua Han, Zhenhua Li, Quanlu Zhang, Haisheng
+									Tan</i><br />
+								Accepted to <i><strong>IEEE INFOCOM </strong></i> 2020 . <br />
+							</span></li><br />
+
+						<b>Online Deadline-Aware Task Dispatching and Scheduling in Edge
+							Computing</b><br />
+						<i>Jiaying Meng, Haisheng Tan *， Xiang-Yang Li *， Zhenhua Han, Bojie
+							Li</i><br />
+						Accepted to <i><strong>IEEE TPDS</strong></i> 2020 . <br />
+						</span></li><br />
+
+						<li><span>
+								<b>云边端协同智能边缘计算的发展与挑战</b><br />
+								谈海生，郭得科，张弛，李向阳<br />
+								Accepted to <i><strong>《中国计算机学会通讯(CCCF)》 </strong></i> 2020. <br />
+							</span></li><br />
+
+						<h5>2019</h5>
+						<li><span>
+								<b>OnDisc: Online Latency-Sensitive Job Dispatching and Scheduling in
+									Heterogeneous Edge-Clouds</b><br />
+								<i>Zhenhua Han, Haisheng Tan *, Xiang-Yang Li, Shaofeng H.-C. Jiang,
+									Yupeng Li, and Francis Lau</i><br />
+								Accepted to <i><strong>IEEE/ACM ToN</strong></i> (DOI:
+								10.1109/TNET.2019.2953806). <br />
+							</span></li><br />
+
+
+						<li><span>
+								<b>Online DAG Scheduling with On-demand Function Configuration in Edge
+									Computing</b><br />
+								<i>Liuyan Liu, Haoqiang Huang, Haisheng Tan *, Wanli Cao, Panlong Yang
+									and Xiang-Yang Li</i><br />
+								In: <i><strong>WASA</strong></i> 2019 <strong>[<FONT COLOR="#FB0000">
+										Best Paper Award</FONT>]</strong>. <br />
+							</span></li><br />
+
+						<li><span>
+								<b>Joint Online Coflow Routing and Scheduling in Data Center
+									Networks</b><br />
+								<i>Haisheng Tan, Shaofeng Jiang, Yupeng Li *, Xiang-Yang Li, Chenzi
+									Zhangj, Zhenhua Han and Francis Lau</i><br />
+								Accepted to <i><strong>IEEE/ACM ToN</strong></i> 2019. <br />
+							</span></li><br />
+
+						<li><span>
+								<b>Dependent Task Placement and Scheduling with Function Configuration
+									in Edge Computing</b><br />
+								<i> Liuyan Liu, Haisheng Tan *, Shaofeng Jiang, Zhenhua Han, Xiang-Yang
+									Li, and Hong Huang</i><br />
+								To appear in <i><strong>IEEE/ACM IWQoS</strong></i> 2019. <br />
+							</span></li><br />
+
+						<li><span>
+								<b>Reco: Efficient Regularization-Based Coflow Scheduling in Optical
+									Circuit Switches</b><br />
+								<i> Chi Zhang, Haisheng Tan *, Chao Xu, Xiang-Yang Li, Shaojie Tang, and
+									Yupeng Li.</i><br />
+								To appear in <i><strong>IEEE ICDCS</strong></i> 2019. <br />
+							</span></li><br />
+
+						<li><span>
+								<b>Camul: Online Caching on Multiple Caches with Relaying and
+									Bypassing</b><br />
+								<i> Haisheng Tan, Shaofeng Jiang, Zhenhua Han *, Liuyan Liu, Kai Han,
+									and Qinglin Zhao.</i><br />
+								To appear in <i><strong>IEEE INFOCOM</strong></i> 2019 (acceptance
+								ratio: 19.7%). <br />
+							</span></li><br />
+
+						<li><span>
+								<b>Dedas: Online Task Dispatching and Scheduling with Bandwidth
+									Constraint in Edge Computing</b><br />
+								<i> Jiaying Meng, Haisheng Tan *, Chao Xu, Wanli Cao, Liuyan Liu, Bojie
+									Li.</i><br />
+								To appear in <i><strong>IEEE INFOCOM</strong></i> 2019 (acceptance
+								ratio: 19.7%). <br />
+							</span></li><br />
+
+						<h5>2018</h5>
+
+						<li><span>
+								<b>Energy Efficient Dynamic Virtual Machine Management in Data
+									Centers</b><br />
+								<i> Zhenhua Han, Haisheng Tan *, Rui Wang, Guihai Chen, Yupeng Li, and
+									Francis C.M. Lau.</i><br />
+								Accepted to <i><strong>IEEE/ACM Transactions on Networking (ToN).
+									</strong></i><br /> <br />
+							</span></li><br />
+
+						<li><span>
+								<b>Total {k}-domination in special graphs</b><br />
+								<i> Haisheng Tan, Liuyan Liu, and Hongyu Liang</i><br />
+								In <i><strong> Mathematical Foundations of Computing(MFC), 1(3):
+										255-263, 2018. </strong></i><br /> (doi:
+								10.3934/mfc.2018011)<br />
+							</span></li><br />
+						<li><span>
+								<b>Joint Optimization of File Placement and Delivery in Cache-Assisted
+									Wireless Networks </b><br />
+								<i> Bojie Lv, Rui Wang, Ying Cui, and Haisheng Tan</i><br />
+								In <i><strong> IEEE Globecom</strong></i> 2018. <br />
+							</span></li><br />
+
+						<li><span>
+								<b>A Comparative Analysis of School Pupils’ DailyHabits in Germany and
+									China</b><br />
+								<i> Xiaoming Fu, Hong Huang *, Xiang-Yang Li, Haisheng Tan*, and Jie
+									Tang. </i><br />
+								In <i><strong> HotPOST'18</strong>, </i> workshop in <i><strong> IEEE
+										INFOCOM </strong></i> 2018. <br />
+							</span></li><br />
+
+						<li><span>
+								<b>Online Learning based Uplink Scheduling in HetNets with Limited
+									Backhaul Capacity </b><br />
+								<i> Zhenhua Han, Haisheng Tan *, Rui Wang, Shaojie Tang, and Francis Lau
+								</i><br />
+								In <i><strong> IEEE INFOCOM </strong></i> 2018. &nbsp&nbsp<a href="hetnet-full.pdf">Full
+									Version.</a><br />
+							</span></li><br />
+						<li><span>
+								<b>OMCO: Online Multiple Coflow Scheduling in Optical Circuit
+									Switch</b><br />
+								<i> Chao Xu, Haisheng Tan *, Jiahui Hou, Chi Zhang and Xiang-Yang
+									Li</i><br />
+								In <i><strong> IEEE ICC </strong></i> 2018. <br />
+							</span>
+
+							<h5>2017</h5>
+
+						<li><span>
+								<b>Online Job Dispatching and Scheduling in Edge-Clouds</b><br />
+								<i> H. Tan, Z. Han *, X.-Y. Li and F.C.M. Lau. </i><br />
+								In <i><strong> IEEE INFOCOM </strong></i> 2017. <br />
+							</span>
+						</li><br />
+						<li><span>
+								<b>Congestion Game with Agent and Resource Failure</b><br />
+								<i> Y. Li, Y. Jia, H. Tan *, R. Wang, Z. Han and F.C.M. Lau.</i><br />
+								In IEEE Journal on Selected Areas in Communications
+								<i><strong>(JSAC)</strong></i>, issues on Game Theory for Networks (DOI
+								10.1109/JSAC.2017.2672358), 2017.<br />
+							</span>
+						</li><br />
+						<li><span>
+								<b>Online Pricing for Mobile Crowdsourcing with Multi-Minded
+									Users</b><br />
+								<i> K. Han, Y. He, H. Tan *, S. Tang, H. Huang and J. Luo. </i><br />
+								In <i><strong> ACM MobiHoc </strong></i> 2017. <br />
+							</span>
+						</li>
+
+						<h5>2016</h5>
+						<li><span>
+								<b>Computing Roman Domatic Number of Graphs</b><br />
+								<i> H. Tan, H. Liang, R. Wang, and J. Zhou.</i><br />
+								In <i><strong>Information Processing Letters (IPL)</strong></i>,
+								accepted. <br />
+							</span>
+						</li><br />
+
+						<li><span>
+								<b>Efficient Online Coflow Routing and Scheduling</b><br />
+								<i> <u>Y. Li</u>, S.-F. Jiang, H. Tan *, C. Zhang, G. Chen, J. Zhou and
+									F.C.M. Lau.</i><br />
+								To appear in <i><strong>ACM Mobihoc</strong></i> 2016 (acceptance ratio:
+								18.7%). <br />
+							</span>
+						</li><br />
+
+						<li><span>
+								<b>Dynamic Virtual Machine Management via Approximate Markov Decision
+									Process </b><br />
+								<i> <u>Z. Han</u>, H. Tan *, G. Chen, R. Wang, Y. Chen and F.C.M.
+									Lau</i><br />
+								To appear in <i><strong>IEEE INFOCOM</strong></i> 2016 (acceptance
+								ratio: 18.25%). <br />
+							</span>
+						</li><br />
+						<li><span>
+								<b>Ant colony-based energy control routing protocol for mobile ad hoc
+									networks under different node mobility models</b><br />
+								<i> J. Zhou, H. Tan *, Y. Deng, L.Cui and D. Liu.</i><br />
+								In <i> EURASIP Journal on Wireless Communications and Networking
+									<strong> (EURASIP JWCN)</strong></i>, DOI 10.1186/s13638-016-0600-x.
+								<br />
+							</span>
+						</li><br />
+
+						<li><span>
+								<b>Distributed Probabilistic Routing for Network Lifetime
+									Optimization</b><br />
+								<i>Y. Wang, H. Tan *</i><br />
+								In <i><strong>Wireless Networks (WINE)</strong></i>, 2016. <br />
+							</span>
+						</li>
+
+						<h5>2015</h5>
+
+						<li><span>
+								<b>Optimal Rendezvous Strategies for Different Environments in Cognitive
+									Radio Networks </b><br />
+								<i>H. Tan, <u>J. Yu</u>, H. Liang, R. Wang, and <u>Z. Han</u>.</i><br />
+								In <i><strong>ACM MSWiM</strong></i> 2015. <br />
+								<!--	<a href="papers/AFH2012.pdf">PDF</a>, <a href="#" onclick="return toggle('spectralnorm');">Abstract</a>
+
+								<div id="spectralnorm" class="abstract">
+									<p>
+										The spectral norm of a Boolean function $f:\{0,1\}^n \to \{-1,1\}$ is the sum of
+										the absolute values of its Fourier coefficients. This quantity provides useful upper
+										and lower bounds on the complexity of a function in areas such as learning theory,
+										circuit complexity, and communication complexity. In this paper, we give a combinatorial
+										characterization for the spectral norm of symmetric functions. We show that the logarithm
+										of the spectral norm is of the same order of magnitude as $r(f)\log(n/r(f))$ where $r(f) =
+										\max\{r_0,r_1\}$, and $r_0$ and $r_1$ are the smallest integers less than $n/2$ such that
+										$f(x)$ or $f(x) \cdot parity(x)$ is constant for all $x$ with $\sum x_i \in [r_0, n-r_1]$.
+										We mention some applications to the decision tree and communication complexity of symmetric functions.
+									</p>
+								</div> -->
+							</span>
+						</li><br />
+
+						<li><span>
+								<b>Data-Assisted Massive MIMO Uplink Transmission with Large Backhaul
+									Cooperation Delay: Scheme Design and System-Level Analysis
+								</b><br />
+								<i> R. Wang, Y. Chen, H. Tan *, and Q. Zhang</i><br />
+								In <i><strong>IEEE Globecom</strong></i> 2015. <br />
+							</span>
+						</li><br />
+
+						<li><span>
+								<b>Selfish Task-Driven Routing in Hybrid Networks </b><br />
+								<i> <u>Y. Li</u> #, H. Tan * #, Y. Wang, <u>Z. Han</u>, and F.C.M.
+									Lau</i><br />
+								In <i><strong>WiOpt</strong></i> 2015. <br />
+							</span>
+						</li><br />
+
+
+
+						<li><span>
+								<b>On the Complexity of Connectivity in Cognitive Radio Networks Through
+									Spectrum Assignment</b><br />
+								<i>H. Liang, T. Lou, H. Tan *, Y. Wang and D. Yu</i><br />
+								In <i><strong>Journal of Combinatorial Optimization</strong></i>, Volume
+								29, Issue 2, Page 472-487,
+								2015. <br />
+							</span>
+						</li><br />
+
+						<li><span>
+								<b>On Target Counting by Sequential Snapshots of Binary Proximity
+									Sensors</b><br />
+								<i>T. Li, Y. Wang, L. Song, and H. Tan</i><br />
+								In <i><strong> EWSN</strong></i>, 2015. <br />
+							</span>
+						</li>
+						<!--<h5 >2014</h5>
+						<li><span>
+						<b>Data-Assisted Channel Estimation for Uplink Massive MIMO Systems</b><br />
+						<i> R. Wang, Y. Chen, H. Tan *, and Q. Zhang</i><br />
+						In <i><strong>IEEE Globecom</strong></i>  2014. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>Channel Selection for Rendezvous with High Link Stability in Cognitive Radio Networks</b><br />
+						<i><u>Z. Han</u>, H. Tan *, Y. Wang, and J. Zhou</i><br />
+						In <i><strong>WASA</strong></i>,  2014. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>Distributed Multiple Message Broadcast in Wireless Ad-Hoc Networks under the SINR Model</b><br />
+						<i>D. Yu, Q.-S. Hua, Y. Wang, H. Tan, and F.C.M. Lau</i><br />
+						In <i><strong>Theoretical Computer Science (TCS)</strong></i>, 2014. <br />
+						</span>
+						</li>
+						<h5 >2013 and before</h5>
+						<li><span>
+						<b>An Approximate Approach for Area Coverage in Wireless Sensor Networks</b><br />
+						<i> H. Tan, X. Hao, Y. Wang, F.C.M. Lau, and Y. Lv</i><br />
+						In <i><strong>ANT</strong></i>,  2013. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>Complexity of Connectivity in Cognitive Radio Networks Through Spectrum Assignmen</b><br />
+						<i>H. Liang, T. Lou, H. Tan *, Y. Wang and D. Yu</i><br />
+						In <i><strong>ALGOSENSORS</strong></i>, 2012. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>Average Interference Minimization Under the Protocol Model in Wireless Sensor Networks</b><br />
+						<i> H. Tan, T. Lou, Y.X. Wang, Y.C. Wang, and F.C.M. Lau</i><br />
+						In <i><strong>Journal of Interconnection Networks (JOIN)</strong></i>,  Vol. 13, Nos. 1 & 2: 1–20, 2012. <br />
+						</span>
+						</li><br />
+
+
+						<li><span>
+						<b>Computing Capacity and Connectivity in Cognitive Radio Ad-Hoc Networks</b><br />
+						<i>Q.-S. Hua, H. Tan, Y. Wang, H. Li, D. Yu, F.C.M. Lau and C. Wu</i><br />
+						In <i><strong>I-SPAN</strong></i>, 2012 [Invited Paper]. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>Distributed Multiple Message Broadcast in Wireless Ad-Hoc Networks under the SINR Model</b><br />
+						<i>D. Yu, Q.-S. Hua, Y. Wang, H. Tan and F.C.M. Lau</i><br />
+						In <i><strong>SIROCCO</strong></i>,  2012. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>Minimizing Average Interference Through Topology Control</b><br />
+						<i>T. Lou, H. Tan, Y. Wang, and F.C.M. Lau</i><br />
+						In <i><strong>ALGOSENSORS</strong></i>,  2011. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>Maximizing Network Lifetime Online by a Localized Probabilistic Cost-Balancing Algorithm</b><br />
+						<i>Y.C. Wang, Y.X. Wang, H. Tan and F.C.M. Lau</i><br />
+						In <i><strong>ADHOC-NOW</strong></i>,  2011. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>Minimizing Interference for the Highway Model in Wireless Ad-hoc and Sensor Networks</b><br />
+						<i>H. Tan, T. Lou, F.C.M. Lau, Y. Wang, and S. Chen</i><br />
+						In <i><strong>SOFSEM</strong></i>, 2011. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>Exact algorithms to minimize interference in Wireless Sensor Networks</b><br />
+						<i>H. Tan, T. Lou, Y. Wang, Q-S. Hua, and F.C.M. Lau</i><br />
+						In <i><strong>Theoretical Computer Science (TCS)</strong></i>, Vol. 412, pp. 6913–6925, 2011. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>Arbitrary Obstacles Constrained Full Coverage in Wireless Sensor Networks</b><br />
+						<i> H. Tan, Y. Wang, X. Hao, Q-S. Hua, and F.C.M. Lau</i><br />
+						In <i><strong>WASA</strong></i>,  2010. <br />
+						</span>
+						</li><br />
+
+						<li><span>
+						<b>A Generic Pigment Model for Digital Painting</b><br />
+						<i> S. Xu, H. Tan, X. Jiao, F.C.M. Lau, and Y. Pan</i><br />
+						In <i><strong>Computer Graphics Forum (Eurographics'07)</strong></i>, Vol. 26(3), pp. 609–618, 2007. <br />
+						</span>
+						</li>-->
+					</ul>
+				</div>
+				<!-- end of research -->
+
+			</div>
+		</div>
+	</div>
+
+
+	<!-- <p id="back-top" style="display: none;">
+		<font color="red"><a href="#top"><span></span>Back to Top</a></font>
+	</p> -->
+
+</body>
+
+</html> 
