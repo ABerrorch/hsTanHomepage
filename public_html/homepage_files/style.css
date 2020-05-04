@@ -22,12 +22,17 @@ URL:http://www.chris-creed.com
 #leftNavbar {
     float: left;
     width: 120px;
-    min-height: 300px;
+    /* 应老谈的要求，左导航栏的高度要和首页右边一样高 */
+    /* 所以这里的最小高度设置是右边的实际高度减去上下padding */
+    /* 我不知道动态的设置方式所以以后还得改 */
+    /* 注意他只要求和home的一样高，后面Science的一般又特长，所以好像只能每次修改了 */
+    /* 暂时的标准高度615，以后修改了文件还需要改烦死了。615 = 100 + 415 + 100 */
+    /* 如果后来的维护者知道怎么设置成自动调整请务必动手谢谢 */
+    min-height: 415px;
+    padding: 100px 40px 100px 50px;
     margin: 70px auto;
-    /* font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif; */
     color: #555;
     border: 1px #eee solid;
-    padding: 40px 40px 40px 50px;
     -webkit-box-shadow: 0 0 50px #aaa;
     -moz-box-shadow: 0 0 30px #aaa;
     box-shadow: 0 0 50px #aaa;
