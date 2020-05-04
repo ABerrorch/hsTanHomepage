@@ -111,7 +111,7 @@ strong {
     color: #bb1f1f;
 }
 
-strong-iszhyang {
+strong-blue {
     font-weight: bold;
     color: #0066CC
 }
@@ -165,13 +165,19 @@ img {
 
 /*更新ul和li样式 --iszhyang*/
 #menu ul {
-    list-style: none;
+    list-style: disc;
     margin: 0px;
 }
 
 #menu ul li {
     float: left;
 }
+
+ol {
+    list-style: square;
+    margin: 0px;
+}
+
 
 /*ul {*/
 /*	list-style-type: square;*/
