@@ -45,12 +45,11 @@ URL:http://www.chris-creed.com
 #wrap {
     float: right;
     width: 730px;
-    min-height: 700px;
     margin: 70px auto;
     /* font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif; */
     color: #555;
     border: 1px #eee solid;
-    padding: 70px 70px 20px 70px;
+    padding: 70px 70px 70px 70px;
     -webkit-box-shadow: 0 0 50px #aaa;
     -moz-box-shadow: 0 0 30px #aaa;
     box-shadow: 0 0 50px #aaa;
@@ -252,6 +251,8 @@ margin: 0.8em 1em 0.8em 0.5em;
 
 #header #header-photo {
     float: right;
+    /* width的大小是这样得到的，header的宽度是730,header-content的宽度是450，730-450=280.再考虑padding之类的宽度设置为200 */
+    width: 200px; 
     background-color: #eee;
     padding: 5px 5px 2px 5px;
     -webkit-box-shadow: 0 0 10px #aaa;
@@ -260,12 +261,10 @@ margin: 0.8em 1em 0.8em 0.5em;
 }
 
 #header #header-photo img {
-    /* width:200px;
-    height:220px;*/
-    width: 164px;
-    height: 128px;
     border: 1px #ddd solid;
 }
+
+
 
 /* ------------- */
 
